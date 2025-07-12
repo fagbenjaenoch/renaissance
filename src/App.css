@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --illustration-color: #DA667B;
+  --background-color: #F1E0C5;
+  --font-color: #342A21;
+  --svg-size: 70px;
+}
+
+.heading-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+
+.body-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 6rem;
+  font-style: italic;
+  color: var(--font-color);
+}
+
+.main {
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.body {
+  line-height: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+
+.illustrations {
+  color: var(--illustration-color);
+}
+
+.illustrations>* {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.hand1 {
+  top: -123px;
+  left: -200px;
+}
+
+.hand2 {
+  top: -180px;
+  right: -210px;
+  rotate: 348deg;
+}
+
+.cog {
+  top: 110px;
+  left: -20px;
+  width: var(--svg-size);
+  height: var(--svg-size);
+}
+
+.flower {
+  top: 80px;
+  right: -50px;
+  width: var(--svg-size);
+  height: var(--svg-size);
+}
+
+.circle-segment {
+  top: -50px;
+  left: 54px;
+  width: var(--svg-size);
+  height: var(--svg-size);
+}
+
+.quadrant-circle {
+  top: -19px;
+  left: 220px;
+  z-index: 1;
+  width: var(--svg-size);
+  height: var(--svg-size);
+}
