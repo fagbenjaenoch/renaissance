@@ -52,11 +52,19 @@ function App() {
 						for a new laptop to buy but I didn't have the money.
 					</p>
 					<p>
-						Not until I broke out of my silence and reached out to an uncle of
+						Not until I broke out of my silence and reached out to a good uncle of
 						mine who decided to sponsor me and provide me with a new laptop.
 					</p>
 					<p>
-						An that was how I came up with the word "Renaissance" just like how
+						I've gotten what I wanted for months, what can I build?
+						
+						Why not build a simple website to check if you still got it in you?
+
+						A simple website to share your story. A website that would convey it accurately.
+						
+					</p>
+					<p>
+						And that was how I came up with the theme "Renaissance" just like how
 						it was a revival of intellectualism after antiquity.
 					</p>
 				</div>

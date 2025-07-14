@@ -12,19 +12,18 @@ export default function Ticker() {
 			if (!containerRef.current) {
 				return;
 			}
-			containerRef.current.setAttribute("data-animation", "true");
+			containerRef.current.setAttribute("data-animated", "true");
 		}
 	}, []);
 
 	return (
 		<div className="ticker-container" ref={containerRef}>
 			<div className="ticker-inner">
+				<div className="ticker-item first">Renaissance</div>
 				<div className="ticker-item">Renaissance</div>
 				<div className="ticker-item">Renaissance</div>
 				<div className="ticker-item">Renaissance</div>
-				<div className="ticker-item">Renaissance</div>
-				<div className="ticker-item">Renaissance</div>
-				<div className="ticker-item">Renaissance</div>
+				<div className="ticker-item test">Renaissance</div>
 				<div className="ticker-item">Renaissance</div>
 				<div className="ticker-item">Renaissance</div>
 				<div className="ticker-item">Renaissance</div>

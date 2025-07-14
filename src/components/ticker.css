@@ -11,17 +11,22 @@
   gap: var(--gap);
   padding-block: 1rem;
   flex-wrap: wrap;
-  animation: scroll 13s infinite linear;
+  animation: scroll 10s linear infinite;
 }
 
-.ticker-container[data-animation="true"] {
+.ticker-container[data-animated="true"] {
   overflow: hidden;
   -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
-.ticker-container[data-animation="true"] .ticker-inner {
+.ticker-container[data-animated="true"] .ticker-inner {
   flex-wrap: nowrap;
+  width: max-content;
+}
+
+.first {
+  background: red;
 }
 
 .test {
@@ -29,11 +34,7 @@
 }
 
 @keyframes scroll {
-  0% {
-    transform: translate(0%);
-  }
-
-  100% {
-    transform: translate(calc(-50% - var(--gap)/ 2));
+  to {
+    transform: translate(calc(-50% - calc(var(--gap) / 2)));
   }
 }
