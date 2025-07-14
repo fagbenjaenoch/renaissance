@@ -14,15 +14,13 @@
   animation: scroll 13s infinite linear;
 }
 
-/* .ticker-container[data-animation="true"] { */
-.ticker-container {
+.ticker-container[data-animation="true"] {
   overflow: hidden;
   -webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
-/* .ticker-container[data-animation="true"] .ticker-inner { */
-.ticker-container .ticker-inner {
+.ticker-container[data-animation="true"] .ticker-inner {
   flex-wrap: nowrap;
 }
 
