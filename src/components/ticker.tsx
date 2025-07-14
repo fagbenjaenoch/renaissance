@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./ticker.css";
+import { Starburst } from "./icons";
 
 export default function Ticker() {
 	const containerRef = useRef<HTMLDivElement>(null);
@@ -34,11 +35,13 @@ export default function Ticker() {
 	return (
 		<div className="ticker-container" ref={containerRef}>
 			<div className="ticker-inner" ref={tickerRef}>
-				{/* Had to add 4 children here because anything lesser would create empty spaces */}
+				{/* Had to add 8 children here because anything lesser would create empty spaces */}
 				<div className="ticker-item">Renaissance</div>
+				<Starburst />
 				<div className="ticker-item">Renaissance</div>
+				<Starburst />
 				<div className="ticker-item">Renaissance</div>
-				<div className="ticker-item">Renaissance</div>
+				<Starburst />
 			</div>
 		</div>
 	);

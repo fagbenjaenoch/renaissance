@@ -39,10 +39,16 @@ h1 {
 
 h2 {
   font-size: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 p {
   text-wrap: wrap;
+  line-height: 1.5;
+}
+
+p+p {
+  margin-bottom: 1rem;
 }
 
 .main>*+* {
@@ -83,48 +89,49 @@ p {
   z-index: 3;
 }
 
+.icon {
+  width: var(--svg-size);
+  height: var(--svg-size);
+}
+
 .hand1 {
-  top: -123px;
-  left: -200px;
+  --svg-size: 20rem;
+  rotate: -13deg;
+  top: -93px;
+  left: -160px;
 }
 
 .hand2 {
-  top: -180px;
-  right: -210px;
-  rotate: 348deg;
+  --svg-size: 20rem;
+  top: -140px;
+  right: -164px;
+  rotate: -12deg;
 }
 
 .cog {
   top: 110px;
   left: -20px;
-  width: var(--svg-size);
-  height: var(--svg-size);
+
 }
 
 .flower {
   top: 80px;
   right: -50px;
-  width: var(--svg-size);
-  height: var(--svg-size);
 }
 
 .circle-segment {
   top: -50px;
   left: 54px;
-  width: var(--svg-size);
-  height: var(--svg-size);
 }
 
 .quadrant-circle {
   top: -19px;
   left: 220px;
   z-index: 1;
-  width: var(--svg-size);
-  height: var(--svg-size);
 }
 
-.ticker {
-  /* margin-bottom: 2rem; */
+.starburst {
+  --svg-size: 20px;
 }
 
 .about {

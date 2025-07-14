@@ -58,9 +58,9 @@ function App() {
 					<p>
 						I've gotten what I wanted for months, what can I build?
 						
-						Why not build a simple website to check if you still got it in you?
+						Why not build a simple website to check if I still got it in me?
 
-						A simple website to share your story. A website that would convey it accurately.
+						A simple website to share my story. A website that would convey it accurately.
 						
 					</p>
 					<p>

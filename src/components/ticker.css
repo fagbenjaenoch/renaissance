@@ -8,6 +8,7 @@
 .ticker-inner {
   --gap: 20px;
   display: flex;
+  align-items: center;
   gap: var(--gap);
   padding-block: 1rem;
   flex-wrap: wrap;
