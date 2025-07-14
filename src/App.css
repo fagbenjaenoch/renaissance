@@ -37,7 +37,7 @@ h1 {
   color: var(--font-color);
 }
 
-.main {
+.hero {
   height: 100dvh;
   display: grid;
   place-items: center;
@@ -107,4 +107,8 @@ h1 {
   z-index: 1;
   width: var(--svg-size);
   height: var(--svg-size);
+}
+
+.ticker {
+  margin-bottom: 2rem;
 }
