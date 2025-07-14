@@ -25,14 +25,6 @@
   width: max-content;
 }
 
-.first {
-  background: red;
-}
-
-.test {
-  background: lime;
-}
-
 @keyframes scroll {
   to {
     transform: translate(calc(-50% - calc(var(--gap) / 2)));
