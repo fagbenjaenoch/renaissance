@@ -48,25 +48,57 @@ function App() {
 					<p>
 						It was really tough for me. I lost my Job and lost a bit of
 						confidence but I held on to hope--the hope that one day I will get a
-						new laptop. I had to be delusional a bit and I was always searching
-						for a new laptop to buy but I didn't have the money.
+						new laptop. I had to be delusional a bit, always searching for a new
+						laptop to buy but I didn't have the money.
 					</p>
 					<p>
-						Not until I broke out of my silence and reached out to a good uncle of
-						mine who decided to sponsor me and provide me with a new laptop.
+						Not until I broke out of my silence and reached out to a good uncle
+						of mine who decided to sponsor me and provide me with a new laptop.
 					</p>
 					<p>
-						I've gotten what I wanted for months, what can I build?
-						
-						Why not build a simple website to check if I still got it in me?
+						I've gotten what I wanted for months, what can I build? Why not
+						build a simple website to check if I still got it in me? A simple
+						website to share my story. A website that would convey it
+						accurately.
+					</p>
+					<p>
+						And that was how I came up with the theme "Renaissance" just like
+						how it was a revival of intellectualism after antiquity.
+					</p>
+				</div>
+			</section>
+			<section className="what-next">
+				<div className="wrapper">
+					<h2>What next?</h2>
+					<p>
+						Truth is--despite not having a personal computer, I didn't let my
+						skills fade away. I kept on learning actively, finding clarity and
+						consolidating past knowledge through little bits of practices when I
+						get the opportunity.
+					</p>
+					<p>
+						Since we entered the AI vogue, access to information has
+						proliferated more and massive shifts have been occurring in the tech
+						industry. Massive layoffs have been occurring and getting a job
+						would require above average effort than what was required pre-date.
+					</p>
+					<p>
+						I won't let that discourage me. I would keep building and honing my
+						skills.
+					</p>
+					<p>Thank you for reading this far.</p>
+				</div>
+			</section>
+			<section className="conclusion">
+				<div className="wrapper">
+					<div className="conclusion-inner">
+						<p>
+							Written by <a href=".">Enoch Fagbenja</a>
+						</p>
 
-						A simple website to share my story. A website that would convey it accurately.
-						
-					</p>
-					<p>
-						And that was how I came up with the theme "Renaissance" just like how
-						it was a revival of intellectualism after antiquity.
-					</p>
+						<a href="mailto:fagbenjaenoch73@gmail.com">Send me a mail</a>
+						<a href="https://github.com/fagbenjaenoch">Check out my github</a>
+					</div>
 				</div>
 			</section>
 		</div>
