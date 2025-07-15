@@ -42,6 +42,8 @@ export default function Ticker() {
 				<Starburst />
 				<div className="ticker-item">Renaissance</div>
 				<Starburst />
+				<div className="ticker-item">Renaissance</div>
+				<Starburst />
 			</div>
 		</div>
 	);
