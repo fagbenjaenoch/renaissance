@@ -1,15 +1,15 @@
-import { useEffect, useRef } from "react";
 import "./ticker.css";
+import { useEffect, useRef } from "react";
 import { Starburst } from "./icons";
 
 export default function Ticker() {
 	const containerRef = useRef<HTMLDivElement>(null);
 	const tickerRef = useRef<HTMLDivElement>(null);
-	
+
 	useEffect(() => {
 		if (!window.matchMedia("(prefer-reduced-motion: reduce)").matches) {
 			addAnimation();
-			duplicateTickerChildren()
+			duplicateTickerChildren();
 		}
 
 		function addAnimation() {
@@ -24,11 +24,11 @@ export default function Ticker() {
 				return;
 			}
 
-			const tickerChildren = Array.from(tickerRef.current.children) 
-			tickerChildren.forEach(child => {
-				const childClone = child.cloneNode(true)
-				tickerRef.current?.appendChild(childClone)
-			})
+			const tickerChildren = Array.from(tickerRef.current.children);
+			tickerChildren.forEach((child) => {
+				const childClone = child.cloneNode(true);
+				tickerRef.current?.appendChild(childClone);
+			});
 		}
 	}, []);
 
