@@ -68,6 +68,7 @@ hr {
 
 .wrapper {
   position: relative;
+  padding-inline: 1rem;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -96,6 +97,7 @@ hr {
 .icon {
   width: var(--svg-size);
   height: var(--svg-size);
+  /* animation: move 5s infinite alternate linear; */
 }
 
 .hand1 {
@@ -103,6 +105,7 @@ hr {
   rotate: -13deg;
   top: -93px;
   left: -160px;
+  animation-name: touch;
 }
 
 .hand2 {
@@ -115,7 +118,6 @@ hr {
 .cog {
   top: 110px;
   left: -20px;
-
 }
 
 .flower {
@@ -136,6 +138,7 @@ hr {
 
 .starburst {
   --svg-size: 20px;
+  animation: none;
 }
 
 .about {
@@ -148,4 +151,36 @@ hr {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid currentColor;
+}
+
+@keyframes move {
+  to {
+    translate: 20px 20px;
+  }
+}
+
+@keyframes touch {
+  to {
+    translate: -20px -20px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --svg-size: 60px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  p,
+  a {
+    font-size: 0.9rem;
+  }
 }
