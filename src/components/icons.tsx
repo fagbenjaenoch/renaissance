@@ -120,7 +120,7 @@ export function NestedCircles() {
 	);
 }
 
-export function CogShape() {
+export function CogShape({ ...props }: React.SVGAttributes<SVGElement>) {
 	return (
 		<svg
 			viewBox="0 0 480 480"
@@ -128,6 +128,7 @@ export function CogShape() {
 			fill="currentColor"
 			role="image"
 			className="icon cog"
+			{...props}
 		>
 			<path d="M480 210h-89.2l82.4-34.1-23-55.5-82.3 34.2 63-63L388.5 49l-63 63 34-82.4-55.4-23L270 89.3V0h-60v89.2L175.9 6.8l-55.5 23 34.2 82.3-63-63L49 91.5l63 63-82.3-34-23 55.4L89.2 210H0v60h89.2L6.8 304.1l23 55.5 82.3-34.2-63 63L91.5 431l63-63-34 82.4 55.4 23 34.1-82.5V480h60v-89.2l34.1 82.4 55.5-23-34.2-82.3 63 63 42.5-42.4-63-63 82.4 34 23-55.4-82.5-34.1H480v-60Zm-240 90a60 60 0 1 1 0-120 60 60 0 0 1 0 120Z" />
 		</svg>
