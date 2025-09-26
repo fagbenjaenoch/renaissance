@@ -61,8 +61,8 @@ hr {
 
 .hero {
   height: 100dvh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
   overflow: hidden;
 }
 
