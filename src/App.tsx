@@ -7,7 +7,7 @@ import {
 	QuadrantCircle,
 	StarFlower,
 } from "./components/icons";
-import Ticker from "./components/ticker";
+// import Ticker from "./components/ticker";
 
 function App() {
 	return (
@@ -34,9 +34,9 @@ function App() {
 					</div>
 				</div>
 			</section>
-			<section className="ticker">
+			{/* <section className="ticker">
 				<Ticker />
-			</section>
+			</section> */}
 			<section className="about">
 				<div className="wrapper">
 					<h2>Why does this page exist?</h2>
