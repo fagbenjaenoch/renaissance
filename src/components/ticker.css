@@ -12,7 +12,7 @@
   gap: var(--gap);
   padding-block: 1rem;
   flex-wrap: wrap;
-  animation: scroll 10s linear infinite;
+  animation: scroll 20s linear infinite;
 }
 
 .ticker-container[data-animated="true"] {
