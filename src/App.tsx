@@ -1,12 +1,12 @@
 import "./App.css";
-import {
-	CircleSegment,
-	CogShape,
-	Hand1,
-	Hand2,
-	QuadrantCircle,
-	StarFlower,
-} from "./components/icons";
+// import {
+// 	CircleSegment,
+// 	CogShape,
+// 	Hand1,
+// 	Hand2,
+// 	QuadrantCircle,
+// 	StarFlower,
+// } from "./components/icons";
 // import Ticker from "./components/ticker";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 							The re-emergence of something after a long time of obscurity
 						</p>
 					</div>
-					<div className="illustrations">
+					{/* <div className="illustrations">
 						<div className="hand1">
 							<Hand1 width={"400px"} height={"400px"} />
 						</div>
@@ -31,7 +31,7 @@ function App() {
 						<StarFlower />
 						<CircleSegment />
 						<QuadrantCircle />
-					</div>
+					</div> */}
 				</div>
 			</section>
 			{/* <section className="ticker">
