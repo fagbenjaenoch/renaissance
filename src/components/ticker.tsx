@@ -1,4 +1,3 @@
-import "./ticker.css";
 import { useEffect, useRef } from "react";
 import { Starburst } from "./icons";
 
@@ -33,16 +32,24 @@ export default function Ticker() {
 	}, []);
 
 	return (
-		<div className="ticker-container" ref={containerRef}>
-			<div className="ticker-inner" ref={tickerRef}>
+		<div
+			className="max-w-[800px] border-y border-black text-[2rem] mx-auto data-[animated=true]:overflow-hidden data-[animated=true]:[mask-image:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)] data-[animated=true]:[-webkit-mask-image:linear-gradient(90deg,transparent,white_20%,white_80%,transparent)]"
+			ref={containerRef}
+			data-animated={true}
+		>
+			<div
+				className="flex items-center gap-[20px] py-4 flex-wrap animate-scroll data-[animated=true]:flex-nowrap data-[animated=true]:w-max data-[animated=true]:hover:[animation-play-state:paused]"
+				ref={tickerRef}
+				data-animated={true}
+			>
 				{/* Had to add 8 children here because anything lesser would create empty spaces */}
-				<div className="ticker-item">Renaissance</div>
+				<div>Renaissance</div>
 				<Starburst />
-				<div className="ticker-item">Renaissance</div>
+				<div>Renaissance</div>
 				<Starburst />
-				<div className="ticker-item">Renaissance</div>
+				<div>Renaissance</div>
 				<Starburst />
-				<div className="ticker-item">Renaissance</div>
+				<div>Renaissance</div>
 				<Starburst />
 			</div>
 		</div>
