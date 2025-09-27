@@ -1,4 +1,5 @@
 import "./App.css";
+import GradFlow from "./components/GradFlow";
 // import {
 // 	CircleSegment,
 // 	CogShape,
@@ -7,12 +8,24 @@ import "./App.css";
 // 	QuadrantCircle,
 // 	StarFlower,
 // } from "./components/icons";
-// import Ticker from "./components/ticker";
+import Ticker from "./components/ticker";
 
 function App() {
 	return (
 		<div className="main">
 			<section className="hero">
+				<GradFlow
+					className="-z-10 absolute"
+					config={{
+						color1: { r: 40, g: 25, b: 118 },
+						color2: { r: 241, g: 96, b: 59 },
+						color3: { r: 255, g: 255, b: 255 },
+						speed: 0.4,
+						scale: 1.2,
+						type: "animated",
+						noise: 0.1,
+					}}
+				/>
 				<div className="wrapper">
 					<div className="body">
 						<h1 className="heading-font">Renaissance!</h1>
@@ -34,9 +47,9 @@ function App() {
 					</div> */}
 				</div>
 			</section>
-			{/* <section className="ticker">
+			<section className="ticker">
 				<Ticker />
-			</section> */}
+			</section>
 			<section className="about">
 				<div className="wrapper">
 					<h2>Why does this page exist?</h2>
