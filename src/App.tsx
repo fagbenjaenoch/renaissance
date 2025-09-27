@@ -1,3 +1,4 @@
+import "./index.css";
 import "./App.css";
 import GradFlow from "./components/GradFlow";
 // import {
@@ -17,18 +18,18 @@ function App() {
 				<GradFlow
 					className="-z-10 absolute"
 					config={{
-						color1: { r: 40, g: 25, b: 118 },
-						color2: { r: 241, g: 96, b: 59 },
-						color3: { r: 255, g: 255, b: 255 },
-						speed: 0.4,
+						color1: { r: 163, g: 106, b: 242 },
+						color2: { r: 0, g: 0, b: 0 },
+						color3: { r: 234, g: 130, b: 106 },
+						speed: 0.6,
 						scale: 1.2,
-						type: "animated",
-						noise: 0.1,
+						type: "silk",
+						noise: 0.18,
 					}}
 				/>
 				<div className="wrapper">
-					<div className="body">
-						<h1 className="heading-font">Renaissance!</h1>
+					<div className="hero-content text-[var(--clr-primary)]">
+						<h1>Renaissance!</h1>
 						<p className="body-font">
 							The re-emergence of something after a long time of obscurity
 						</p>
@@ -47,7 +48,7 @@ function App() {
 					</div> */}
 				</div>
 			</section>
-			<section className="ticker">
+			<section className="">
 				<Ticker />
 			</section>
 			<section className="about">
