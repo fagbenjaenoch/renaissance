@@ -29,7 +29,9 @@ function App() {
 				<div className="relative px-4 max-w-[700px] mx-auto">
 					<div className="leading-[0.9] flex flex-col items-center justify-center relative z-[2] text-[var(--clr-primary)]">
 						<h1 className="text-8xl md:text-3xl">Renaissance!</h1>
-						<p>The re-emergence of something after a long time of obscurity</p>
+						<p className="text-[1.2rem]">
+							The re-emergence of a thing after a long time of obscurity
+						</p>
 					</div>
 					{/* <div className="text-[var(--illustration-color)] ">
 						<div className="w-[20rem] h-[20rem] -rotate-[13deg] absolute top-[-93px] left-[-160px] animate-[touch_5s_infinite_alternate_linear] absolute top-0 z-[3]">
