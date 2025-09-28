@@ -54,8 +54,8 @@ function App() {
 				<div className="relative px-4 max-w-[700px] mx-auto">
 					<h2>Why does this page exist?</h2>
 					<p>
-						Nothing really serious. It's been almost 7 months I've written code
-						and this was because I didn't have a personal computer after my
+						Nothing really serious. It's been almost 7 months I've last written
+						code and this was because I didn't have a personal computer after my
 						previous semi-laptop(not kidding) was damaged.
 					</p>
 					<p>
@@ -71,8 +71,8 @@ function App() {
 					<p>
 						I've gotten what I wanted for months, what can I build? Why not
 						build a simple website to check if I still got it in me? A simple
-						website to share my story. A website that would convey it
-						accurately.
+						website to share my story. A website that would convey it in a
+						subtle way.
 					</p>
 					<p>
 						And that was how I came up with the theme "Renaissance" just like
@@ -87,7 +87,7 @@ function App() {
 						Truth is—despite not having a personal computer, I didn't let my
 						skills fade away. I kept on learning actively, finding clarity and
 						consolidating past knowledge through little bits of practices when I
-						get the opportunity.
+						get the opportunity to use a computer.
 					</p>
 					<p>
 						Since we entered the AI vogue, access to information has
