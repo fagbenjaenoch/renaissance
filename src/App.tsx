@@ -1,5 +1,4 @@
 import "./index.css";
-import "./App.css";
 import GradFlow from "./components/GradFlow";
 // import {
 // 	CircleSegment,
@@ -13,8 +12,8 @@ import Ticker from "./components/ticker";
 
 function App() {
 	return (
-		<div className="main">
-			<section className="hero">
+		<div className="space-y-16">
+			<section className="h-dvh flex items-center overflow-hidden">
 				<GradFlow
 					className="-z-10 absolute"
 					config={{
@@ -27,18 +26,16 @@ function App() {
 						noise: 0.18,
 					}}
 				/>
-				<div className="wrapper">
-					<div className="hero-content text-[var(--clr-primary)]">
-						<h1>Renaissance!</h1>
-						<p className="body-font">
-							The re-emergence of something after a long time of obscurity
-						</p>
+				<div className="relative px-4 max-w-[700px] mx-auto">
+					<div className="leading-[0.9] flex flex-col items-center justify-center relative z-[2] text-[var(--clr-primary)]">
+						<h1 className="text-8xl md:text-3xl">Renaissance!</h1>
+						<p>The re-emergence of something after a long time of obscurity</p>
 					</div>
-					{/* <div className="illustrations">
-						<div className="hand1">
+					{/* <div className="text-[var(--illustration-color)] ">
+						<div className="w-[20rem] h-[20rem] -rotate-[13deg] absolute top-[-93px] left-[-160px] animate-[touch_5s_infinite_alternate_linear] absolute top-0 z-[3]">
 							<Hand1 width={"400px"} height={"400px"} />
 						</div>
-						<div className="hand2">
+						<div className="w-[20rem] h-[20rem] -rotate-[12deg] absolute top-[-140px] right-[-164px] absolute top-0 z-[3]">
 							<Hand2 width={"400px"} height={"400px"} />
 						</div>
 						<CogShape />
@@ -48,11 +45,11 @@ function App() {
 					</div> */}
 				</div>
 			</section>
-			<section className="">
+			<section>
 				<Ticker />
 			</section>
-			<section className="about">
-				<div className="wrapper">
+			<section>
+				<div className="relative px-4 max-w-[700px] mx-auto">
 					<h2>Why does this page exist?</h2>
 					<p>
 						Nothing really serious. It's been almost 7 months I've written code
@@ -81,8 +78,8 @@ function App() {
 					</p>
 				</div>
 			</section>
-			<section className="what-next">
-				<div className="wrapper">
+			<section>
+				<div className="relative px-4 max-w-[700px] mx-auto">
 					<h2>What next?</h2>
 					<p>
 						Truth is--despite not having a personal computer, I didn't let my
@@ -104,8 +101,8 @@ function App() {
 				</div>
 			</section>
 			<section className="conclusion">
-				<div className="wrapper">
-					<div className="conclusion-inner">
+				<div className="relative px-4 max-w-[700px] mx-auto">
+					<div className="py-2 flex items-center justify-between border-t border-current">
 						<p>
 							Written by <a href=".">Enoch Fagbenja</a>
 						</p>
