@@ -13,7 +13,7 @@ import Ticker from "./components/ticker";
 function App() {
 	return (
 		<div className="space-y-16">
-			<section className="h-dvh flex items-center overflow-hidden">
+			<section id="hero" className="h-dvh flex items-center overflow-hidden">
 				<GradFlow
 					className="-z-10 absolute"
 					config={{
@@ -47,10 +47,10 @@ function App() {
 					</div> */}
 				</div>
 			</section>
-			<section>
+			<section id="ticker">
 				<Ticker />
 			</section>
-			<section>
+			<section id="content">
 				<div className="relative px-4 max-w-[700px] mx-auto">
 					<h2>Why does this page exist?</h2>
 					<p>
@@ -102,9 +102,9 @@ function App() {
 					<p>Thank you for reading this far.</p>
 				</div>
 			</section>
-			<section className="conclusion">
+			<section id="conclusion">
 				<div className="relative px-4 max-w-[700px] mx-auto">
-					<div className="py-2 flex items-center justify-between border-t border-current">
+					<div className="py-8 flex items-center justify-between border-t border-current">
 						<p>
 							Written by <a href=".">Enoch Fagbenja</a>
 						</p>
