@@ -8,7 +8,7 @@ import GradFlow from "./components/GradFlow";
 // 	QuadrantCircle,
 // 	StarFlower,
 // } from "./components/icons";
-import Ticker from "./components/ticker";
+import Ticker from "./components/Ticker";
 
 function App() {
 	return (

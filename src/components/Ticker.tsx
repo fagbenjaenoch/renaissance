@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Starburst } from "./icons";
+import { Starburst } from "./Icons";
 
 export default function Ticker() {
 	const containerRef = useRef<HTMLDivElement>(null);

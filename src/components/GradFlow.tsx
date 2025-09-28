@@ -6,7 +6,7 @@ import {
 	gradientTypeNumber,
 	normalizeRgb,
 	type RGB,
-} from "../lib/GradFlow";
+} from "../lib/gradFlow";
 import { cn } from "../lib/util";
 
 export const vertexShader = `
