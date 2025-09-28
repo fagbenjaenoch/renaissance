@@ -28,8 +28,8 @@ function App() {
 				/>
 				<div className="relative px-4 max-w-[700px] mx-auto">
 					<div className="leading-[0.9] flex flex-col items-center justify-center relative z-[2] text-[var(--clr-primary)]">
-						<h1 className="text-8xl md:text-3xl">Renaissance!</h1>
-						<p className="text-[1.2rem]">
+						<h1>Renaissance!</h1>
+						<p className="text-sm md:text-[1.2rem]">
 							The re-emergence of a thing after a long time of obscurity
 						</p>
 					</div>
@@ -104,7 +104,7 @@ function App() {
 			</section>
 			<section id="conclusion">
 				<div className="relative px-4 max-w-[700px] mx-auto">
-					<div className="py-8 flex items-center justify-between border-t border-current">
+					<div className="py-8 flex flex-wrap items-center justify-between border-t border-current text-sm md:text-base">
 						<p>
 							Written by <a href=".">Enoch Fagbenja</a>
 						</p>
