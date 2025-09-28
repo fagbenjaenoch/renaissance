@@ -60,7 +60,7 @@ function App() {
 					</p>
 					<p>
 						It was really tough for me. I lost my Job and lost a bit of
-						confidence but I held on to hope--the hope that one day I will get a
+						confidence but I held on to hope——the hope that one day I will get a
 						new laptop. I had to be delusional a bit, always searching for a new
 						laptop to buy but I didn't have the money.
 					</p>
@@ -84,7 +84,7 @@ function App() {
 				<div className="relative px-4 max-w-[700px] mx-auto">
 					<h2>What next?</h2>
 					<p>
-						Truth is--despite not having a personal computer, I didn't let my
+						Truth is——despite not having a personal computer, I didn't let my
 						skills fade away. I kept on learning actively, finding clarity and
 						consolidating past knowledge through little bits of practices when I
 						get the opportunity.
