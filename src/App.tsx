@@ -105,7 +105,11 @@ function App() {
 			<section id="conclusion">
 				<div className="relative px-4 max-w-[700px] mx-auto">
 					<div className="py-8 flex flex-wrap items-center justify-between border-t border-current text-sm md:text-base">
-						Built with react
+						<p>
+							Built by Enoch Fagbenja
+						</p>
+
+						<a href="https://github.com/fagbenjaenoch">Check out my github</a>
 					</div>
 				</div>
 			</section>
