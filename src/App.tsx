@@ -13,7 +13,7 @@ import Ticker from "./components/Ticker";
 function App() {
 	return (
 		<div className="space-y-16">
-			<section id="hero" className="h-dvh flex items-center overflow-hidden">
+			<section id="hero" className="h-svh flex items-center overflow-hidden">
 				<GradFlow
 					className="-z-10 absolute"
 					config={{
